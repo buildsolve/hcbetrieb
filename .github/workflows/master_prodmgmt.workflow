@@ -19,7 +19,7 @@ jobs:
           java-version: '8'
 
       - name: Build with Maven
-        run: mvn -f .github/workflows/master_prodmgmt.yml clean install
+        run: mvn -f .github/workflows/master_prodmgmt.workflow clean install
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
