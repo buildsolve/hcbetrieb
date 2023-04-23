@@ -387,7 +387,7 @@
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "low_stock",
+              "widgetName": "Low_stock",
               "defaultPageSize": 0,
               "columnOrder": [
                 "id",
@@ -433,7 +433,7 @@
                   "label": "id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+                  "computedValue": "{{Low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -459,7 +459,7 @@
                   "label": "Raw_Material",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Raw_Material\"]))}}",
+                  "computedValue": "{{Low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Raw_Material\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -485,7 +485,7 @@
                   "label": "Lieferand",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Lieferand\"]))}}",
+                  "computedValue": "{{Low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Lieferand\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -511,7 +511,7 @@
                   "label": "Anzahl",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Anzahl\"]))}}",
+                  "computedValue": "{{Low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Anzahl\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -537,7 +537,7 @@
                   "label": "Mindestbestand",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Mindestbestand\"]))}}",
+                  "computedValue": "{{Low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Mindestbestand\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -563,7 +563,7 @@
                   "label": "Unit",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Unit\"]))}}",
+                  "computedValue": "{{Low_stock.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Unit\"]))}}",
                   "sticky": "",
                   "validation": {}
                 }
